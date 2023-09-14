@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+#main{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: montserrat;
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+#page1>nav{
+    padding: 30px 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#page1>nav>#navP2{
+    list-style: none;
+    font-weight: 400;
+    font-size: 1vw;
+    text-transform: capitalize;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+
+}
+#page1>nav>#navP3{
+    list-style: none;
+    font-weight: 500;
+    font-size: 1vw;
+    text-transform: capitalize;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+#navP3>i{
+    font-size: 22px;
+}
+#navP3>select{
+    border: none;
+    text-transform: uppercase;
+    font-size: 1.1vw;
+    font-weight: 400;
+}
+#navP3>button{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 8px 30px;
+    border: 1px orange solid;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 1.1vw;
+    font-weight: 400;
+    background-color: transparent;
+    cursor: pointer;
+}
+#navP3>button>i{
+    color: orange;
+    font-size: 25px;
+}
+#landingSection{
+    display: flex;
+    background-color: #f9f4ee;
+}
+#landingSectionL{
+    width: 50%;
+    padding-left: 10vw;
+}
+#landingSectionL>h1{
+    margin-top: 25vh;
+    font-size: 9vh;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#btns{
+    display: flex;
+    gap: 30px;
+}
+.btnSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.btnSection>p{
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+}
+.btnSection>button{
+    font-size: 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.btnSection>button>.i{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-orange{
+    background-color: orange;
+}
+
+.btnSection>button>.i>i{
+    position: absolute;
+    font-size: 22px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
